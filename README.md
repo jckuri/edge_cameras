@@ -43,7 +43,8 @@ Run the Unix command `./inspect-edge-cameras.sh` in the terminal. This command w
   - ch05_20200307012540.mp4.txt
   - ch06_20200307012540.mp4.txt
 
-Alternatively, you can see the contents of the Unix script `inspect-edge-cameras.sh`. It contains 2 lines:
+Alternatively, you can see the contents of the Unix script `inspect-edge-cameras.sh`. It contains 3 lines:
+  - `source /opt/intel/openvino/bin/setupvars.sh -pyver 3.5`
   - `python edge_camera.py -i ch05_20200307012540.mp4 -t "2020/03/07 01:25:40"`
   - `python edge_camera.py -i ch06_20200307012540.mp4 -t "2020/03/07 01:25:40"`
   
