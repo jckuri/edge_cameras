@@ -76,23 +76,23 @@ https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino
 
 ### Running the project
 
-Run the Unix command `./inspect-edge-cameras.sh` in the terminal. This command will process the 2 video files `ch05_20200307012540.mp4` and `ch06_20200307012540.mp4`. And this command will produce 4 output files: 2 output video files `(out_*.mp4)` and 2 log files `(*.mp4.txt)`.
+Open a Terminal and `cd` into the project directory. Run the Unix command `./inspect-edge-cameras.sh` in the terminal. This command will process the 2 input video files `ch05_20200307012540.mp4` and `ch06_20200307012540.mp4`. And this command will produce 4 output files: 2 output video files `(out_*.mp4)` and 2 log files `(*.mp4.txt)`.
   - out_ch05_20200307012540.mp4
   - out_ch06_20200307012540.mp4
   - ch05_20200307012540.mp4.txt
   - ch06_20200307012540.mp4.txt
 
 Alternatively, you can see the contents of the Unix script `inspect-edge-cameras.sh`. It contains 3 lines:
-  - `source /opt/intel/openvino/bin/setupvars.sh -pyver 3.5`
+  - `source /opt/intel/openvino/bin/setupvars.sh -pyver 3.5` (This command configures the OpenVINO variables.)
   - `python edge_camera.py -i ch05_20200307012540.mp4 -t "2020/03/07 01:25:40"`
   - `python edge_camera.py -i ch06_20200307012540.mp4 -t "2020/03/07 01:25:40"`
   
 Similarly, you can process your own video files of your own security cameras with the following command:
 ```
-python edge_camera.py -i <VIDEO FILE> -t "<YYYY/MM/DD HH:MM:SS>"
+python edge_camera.py -i <INPUT VIDEO FILE> -t "<YYYY/MM/DD HH:MM:SS>"
 ```
   
-This command will produce 2 files: 1 output video file `(out_*.mp4)` and 1 log file `(*.mp4.txt)`. The output video file is the same video but its pixels detected as humans will be marked with red transparencies. So, security guards will be very aware of this parts of the video. The log file contains some metadata about the video processed and 3 columns of data: `frame_index`, `time`, and `color_counter`. This information will be recorded only when humans appear in some specific frames and the number of human pixels will be counted in order to draw a histogram of human pixels through time.
+This command will produce 2 output files: 1 output video file `(out_*.mp4)` and 1 log file `(*.mp4.txt)`. The output video file is the same input video but its pixels detected as humans will be marked with red transparencies. So, security guards will be very aware of this parts of the video. The log file contains some metadata about the video processed and 3 columns of data: `frame_index`, `time`, and `color_counter`. This information will be recorded only when humans appear in some specific frames and the number of human pixels will be counted in order to draw a histogram of human pixels through time.
 
 ## Project's Goal
 
