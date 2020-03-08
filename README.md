@@ -11,6 +11,8 @@ Semantic Segmentation for Self-Driving Cars with OpenVINO <https://youtu.be/Urph
 
 ### INSTALLATION INSTRUCTIONS AND COMMANDS
 
+Google Drive folder "edge_cameras" <https://drive.google.com/open?id=1NnT8Fcu6XCKArtrCTb35iVgBYLS4PxFU>
+
 ### Project's Goal
 
 ### How the "Intel® Edge AI Fundamentals Course" helped us
