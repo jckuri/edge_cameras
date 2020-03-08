@@ -47,7 +47,9 @@ Alternatively, you can see the contents of the Unix script `inspect-edge-cameras
   - `python edge_camera.py -i ch06_20200307012540.mp4 -t "2020/03/07 01:25:40"`
   
 Similarly, you can process your own video files of your own security cameras with the following command:
-```python edge_camera.py -i <VIDEO FILE> -t "<YYYY/MM/DD HH:MM:SS>"```
+```
+python edge_camera.py -i <VIDEO FILE> -t "<YYYY/MM/DD HH:MM:SS>"
+```
   
 This command will produce 2 files: 1 output video file `(out_*.mp4)` and 1 log file `(*.mp4.txt)`. The output video file is the same video but the pixels detected as humans will be marked with red transparencies. So, security guards will be very aware of this parts of the video.
 
