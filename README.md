@@ -14,7 +14,7 @@ There are 2 ways to execute this project:
 - via Udacity workspaces (the easy way);
 - and by installing the OpenVINO toolkit in your computer (the hard way).
 
-### Installation via Udacity workspaces
+### Installation via Udacity workspaces (the easy way)
 
 1. Go to the website of the **Intel® Edge AI Scholarship Foundation Course Nanodegree Program.**
 2. Go to:
@@ -33,11 +33,11 @@ There are 2 ways to execute this project:
   - ch05_20200307012540.mp4
   - ch06_20200307012540.mp4
 
-### Installing the OpenVINO toolkit in your computer
+### Installing the OpenVINO toolkit in your computer (the hard way)
 
 ### Running the project
 
-1. Run the Unix command `./inspect-edge-cameras.sh` in the terminal. This command will process the 2 video files `ch05_20200307012540.mp4` and `ch06_20200307012540.mp4`. And this command will produce 4 output files: 2 video files `(out_*.mp4)` and 2 log files `(*.mp4.txt)`.
+1. Run the Unix command `./inspect-edge-cameras.sh` in the terminal. This command will process the 2 video files `ch05_20200307012540.mp4` and `ch06_20200307012540.mp4`. And this command will produce 4 output files: 2 output video files `(out_*.mp4)` and 2 log files `(*.mp4.txt)`.
   - out_ch05_20200307012540.mp4
   - out_ch06_20200307012540.mp4
   - ch05_20200307012540.mp4.txt
@@ -45,8 +45,11 @@ There are 2 ways to execute this project:
 2. Alternatively, you can see the contents of the Unix script `inspect-edge-cameras.sh`. It contains 2 lines:
   - `python edge_camera.py -i ch05_20200307012540.mp4 -t "2020/03/07 01:25:40"`
   - `python edge_camera.py -i ch06_20200307012540.mp4 -t "2020/03/07 01:25:40"`
+  
   Similarly, you can process your own video files of your own security cameras with the following command:
   `python edge_camera.py -i <VIDEO FILE> -t "<YYYY/MM/DD HH:MM:SS>"`
+  
+  This command will produce 2 files: 1 output video file `(out_*.mp4)` and 1 log file `(*.mp4.txt)`. The output video file is the same video but the pixels detected as humans will be marked with red transparencies. So, security guards will be very aware of this parts of the video.
 
 ## Project's Goal
 
