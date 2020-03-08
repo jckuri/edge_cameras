@@ -52,7 +52,7 @@ Similarly, you can process your own video files of your own security cameras wit
 python edge_camera.py -i <VIDEO FILE> -t "<YYYY/MM/DD HH:MM:SS>"
 ```
   
-This command will produce 2 files: 1 output video file `(out_*.mp4)` and 1 log file `(*.mp4.txt)`. The output video file is the same video but the pixels detected as humans will be marked with red transparencies. So, security guards will be very aware of this parts of the video.
+This command will produce 2 files: 1 output video file `(out_*.mp4)` and 1 log file `(*.mp4.txt)`. The output video file is the same video but its pixels detected as humans will be marked with red transparencies. So, security guards will be very aware of this parts of the video. The log file contains some metadata about the video processed and 3 columns of data: `frame_index`, `time`, and `color_counter`. This information will be recorded only when humans appear in some specific frames and the number of human pixels will be counted in order to draw a histogram of human pixels through time.
 
 ## Project's Goal
 
