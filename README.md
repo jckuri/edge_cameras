@@ -5,6 +5,10 @@ Safety
 
 ### Project's Story: Conception, Motivation, and Execution
 
+This project was conceived when we, Jacqueline and I, were brain storming about the final project of the Intel Edge AI Scholarship.
+
+Semantic Segmentation for Self-Driving Cars with OpenVINO <https://youtu.be/Urph3UHLivY>
+
 ### INSTALLATION INSTRUCTIONS AND COMMANDS
 
 ### Project's Goal
