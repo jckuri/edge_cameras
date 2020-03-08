@@ -21,7 +21,7 @@ There are 2 ways to execute this project:
   - Part 2. Intel® Edge AI Foundation Course
   - Lesson 4: The Inference Engine
   - Video Lecture 13. Exercise: Integrate into an App
-3. Upload all the files of this github repository into the file system of **13. Exercise: Integrate into an App.** Here is the file structure:
+3. Upload the following files of this github repository into the file system of **13. Exercise: Integrate into an App.** Here is the file structure to upload:
   - models/semantic-segmentation-adas-0001.bin
   - models/semantic-segmentation-adas-0001.xml
   - Histograms.ipynb
@@ -32,7 +32,16 @@ There are 2 ways to execute this project:
 4. Upload the 2 videos of the **Google Drive folder "edge_cameras" <https://drive.google.com/open?id=1NnT8Fcu6XCKArtrCTb35iVgBYLS4PxFU>** into the file system of **13. Exercise: Integrate into an App.** Here is the file structure:
   - ch05_20200307012540.mp4
   - ch06_20200307012540.mp4
-5. Run
+5. Run the Unix command `./inspect-edge-cameras.sh` in the terminal. This command will process the 2 video files `ch05_20200307012540.mp4` and `ch06_20200307012540.mp4`. And this command will produce 4 output files: 2 video files `(out_*.mp4)` and 2 log files `(*.mp4.txt)`.
+  - out_ch05_20200307012540.mp4
+  - out_ch06_20200307012540.mp4
+  - ch05_20200307012540.mp4.txt
+  - ch06_20200307012540.mp4.txt
+6. Alternatively, you can see the contents of the Unix script `inspect-edge-cameras.sh`. It contains 2 lines:
+  - `python edge_camera.py -i ch05_20200307012540.mp4 -t "2020/03/07 01:25:40"`
+  - `python edge_camera.py -i ch06_20200307012540.mp4 -t "2020/03/07 01:25:40"`
+  Similarly, you can process your own video files of your own security cameras with the following command:
+  `python edge_camera.py -i <VIDEO FILE> -t "<YYYY/MM/DD HH:MM:SS>"`
 
 ### Installing the OpenVINO toolkit in your computer
 
