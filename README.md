@@ -4,9 +4,9 @@
 
 ## Project's Story: Conception, Motivation, and Execution
 
-This project was conceived when we, Jacqueline and I, were brain-storming about the final project of the Intel Edge AI Scholarship <https://www.udacity.com/scholarships/intel-edge-ai-scholarship>. 
+This project was conceived when we, Jacqueline and I, were brain-storming about the final project of the Intel Edge AI Scholarship <https://www.udacity.com/scholarships/intel-edge-ai-scholarship>. We talked about many tentative topics. But we were limited by the trained models available. The most popular trained models detect humans. So, we decided to think about human activities. Then, I tought about security cameras. And I remembered that the trained model of **Part 2. Intel® Edge AI Foundation Course; Lesson 4: The Inference Engine; Video Lecture 13. Exercise: Integrate into an App** contained a class **people** in its categories for semantic segmentation. I also remembered that I programmed a very sophisticated visualization with transparencies for my project **Semantic Segmentation for Self-Driving Cars with OpenVINO <https://youtu.be/Urph3UHLivY>**. And I said: Why not doing it for detecting human presence in security cameras? Then this project was born.
 
-**Semantic Segmentation for Self-Driving Cars with OpenVINO <https://youtu.be/Urph3UHLivY>**
+
 
 ## INSTALLATION INSTRUCTIONS AND COMMANDS
 
