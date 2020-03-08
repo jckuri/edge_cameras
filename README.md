@@ -29,7 +29,7 @@ There are 2 ways to execute this project:
   - ch06_20200307012540.mp4.txt
   - edge_camera.py
   - inspect-edge-cameras.sh
-4. Upload the 2 videos of the **Google Drive folder "edge_cameras" <https://drive.google.com/open?id=1NnT8Fcu6XCKArtrCTb35iVgBYLS4PxFU>** into the file system of **13. Exercise: Integrate into an App.** Here is the file structure:
+4. Upload the 2 videos of the **Google Drive folder "edge_cameras" <https://drive.google.com/open?id=1NnT8Fcu6XCKArtrCTb35iVgBYLS4PxFU>** into the file system of **13. Exercise: Integrate into an App.** Here is the file structure to upload:
   - ch05_20200307012540.mp4
   - ch06_20200307012540.mp4
 
@@ -38,29 +38,41 @@ There are 2 ways to execute this project:
 1. Install Conda with Python 3.5: https://docs.conda.io/projects/conda/en/latest/user-guide/install/
 2. Open a Terminal and execute the command: 
 
-  ```
-  conda create -n edge-cameras python=3.5
-  ```
+```
+conda create -n edge-cameras python=3.5
+```
 
 3. Activate the conda environment `edge-cameras` with the command: 
 
-  ```
-  source activate edge-cameras
-  ```
+```
+source activate edge-cameras
+```
 4. Install OpenCV for Python with the commands:
 
-  ```
-  sudo apt update
-  sudo apt install python3-opencv
-  ```
+```
+sudo apt update
+sudo apt install python3-opencv
+```
 5. Verify if Open CV was correctly installed with the command:
 
-  ```
-  python3 -c "import cv2; print(cv2.__version__)"
-  ```
+```
+python3 -c "import cv2; print(cv2.__version__)"
+```
 6. Install the OpenVINO Toolkit with the following instructions:
+https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino_linux.html
 
-  https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino_linux.html
+7. Download the following files of this github repository into your file system. Here is the file structure to download:
+  - models/semantic-segmentation-adas-0001.bin
+  - models/semantic-segmentation-adas-0001.xml
+  - Histograms.ipynb
+  - ch05_20200307012540.mp4.txt
+  - ch06_20200307012540.mp4.txt
+  - edge_camera.py
+  - inspect-edge-cameras.sh
+8. Download the 2 videos of the **Google Drive folder "edge_cameras" <https://drive.google.com/open?id=1NnT8Fcu6XCKArtrCTb35iVgBYLS4PxFU>** into your file system. Here is the file structure to download:
+  - ch05_20200307012540.mp4
+  - ch06_20200307012540.mp4
+
 
 ### Running the project
 
