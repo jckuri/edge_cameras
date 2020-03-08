@@ -1,12 +1,11 @@
 # Edge Cameras for Detecting Human Presence
-This project...
 
 ### Project Category
 Safety
 
 ### Project's Story: Conception, Motivation, and Execution
 
-## INSTALLATION INSTRUCTIONS AND COMMANDS
+### INSTALLATION INSTRUCTIONS AND COMMANDS
 
 ### Project's Goal
 
