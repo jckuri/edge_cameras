@@ -1,4 +1,4 @@
-# Edge Cameras
+# Edge Cameras for Detecting Human Presence
 This project...
 
 ## Edge Cameras: Detecting Human Presence (Camera 5)<br/>
