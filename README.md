@@ -38,29 +38,29 @@ There are 2 ways to execute this project:
 1. Install Conda with Python 3.5: https://docs.conda.io/projects/conda/en/latest/user-guide/install/
 2. Open a Terminal and execute the command: 
 
-```
-conda create -n edge-cameras python=3.5
-```
+  ```
+  conda create -n edge-cameras python=3.5
+  ```
 
 3. Activate the conda environment `edge-cameras` with the command: 
 
-```
-source activate edge-cameras
-```
+  ```
+  source activate edge-cameras
+  ```
 4. Install OpenCV for Python with the commands:
 
-```
-sudo apt update
-sudo apt install python3-opencv
-```
+  ```
+  sudo apt update
+  sudo apt install python3-opencv
+  ```
 5. Verify if Open CV was correctly installed with the command:
 
-```
-python3 -c "import cv2; print(cv2.__version__)"
-```
+  ```
+  python3 -c "import cv2; print(cv2.__version__)"
+  ```
 6. Install the OpenVINO Toolkit with the following instructions:
 
-https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino_linux.html
+  https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino_linux.html
 
 ### Running the project
 
