@@ -16,7 +16,23 @@ There are 2 ways to execute this project:
 
 ### Installation via Udacity workspaces
 
-Google Drive folder "edge_cameras" <https://drive.google.com/open?id=1NnT8Fcu6XCKArtrCTb35iVgBYLS4PxFU>
+1. Go to the website of the **Intel® Edge AI Scholarship Foundation Course Nanodegree Program.**
+2. Go to:
+  - Part 2. Intel® Edge AI Foundation Course
+  - Lesson 4: The Inference Engine
+  - Video Lecture 13. Exercise: Integrate into an App
+3. Upload all the files of this github repository into the file system of **13. Exercise: Integrate into an App.** Here is the file structure:
+  - models/semantic-segmentation-adas-0001.bin
+  - models/semantic-segmentation-adas-0001.xml
+  - Histograms.ipynb
+  - ch05_20200307012540.mp4.txt
+  - ch06_20200307012540.mp4.txt
+  - edge_camera.py
+  - inspect-edge-cameras.sh
+4. Upload the 2 videos of the **Google Drive folder "edge_cameras" <https://drive.google.com/open?id=1NnT8Fcu6XCKArtrCTb35iVgBYLS4PxFU>** into the file system of **13. Exercise: Integrate into an App.** Here is the file structure:
+  - ch05_20200307012540.mp4
+  - ch06_20200307012540.mp4
+5. Run
 
 ### Installing the OpenVINO toolkit in your computer
 
