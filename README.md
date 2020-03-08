@@ -1,15 +1,20 @@
 # Edge Cameras for Detecting Human Presence
 
-### Project Category
-Safety
+### Project Category: Safety
 
 ### Project's Story: Conception, Motivation, and Execution
 
-This project was conceived when we, Jacqueline and I, were brain storming about the final project of the Intel Edge AI Scholarship.
+This project was conceived when we, Jacqueline and I, were brain-storming about the final project of the Intel Edge AI Scholarship <https://www.udacity.com/scholarships/intel-edge-ai-scholarship>. 
 
-Semantic Segmentation for Self-Driving Cars with OpenVINO <https://youtu.be/Urph3UHLivY>
+**Semantic Segmentation for Self-Driving Cars with OpenVINO <https://youtu.be/Urph3UHLivY>**
 
 ### INSTALLATION INSTRUCTIONS AND COMMANDS
+
+There are 2 ways to execute this project:
+- via Udacity workspaces (the easy way);
+- and by installing the OpenVINO toolkit in your computer (the hard way).
+
+
 
 Google Drive folder "edge_cameras" <https://drive.google.com/open?id=1NnT8Fcu6XCKArtrCTb35iVgBYLS4PxFU>
 
