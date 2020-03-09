@@ -10,7 +10,7 @@ My **motivation** for programming this project is very personal. I have a system
 
 We **executed** the implementation of this project through:
 - the OpenVINO Toolkit;
-- the pretrained model semantic-segmentation-adas-0001; 
+- the pretrained model semantic-segmentation-adas-0001 <https://docs.openvinotoolkit.org/2018_R5/_docs_Transportation_segmentation_semantic_segmentation_icnet_icv_caffe_desc_semantic_segmentation_adas_0001.html>; 
 - semantic segmentation with red transparencies for 2 classes (person and rider);
 - logging the frames with human pixels;
 - and histograms of human presence through time.
