@@ -120,14 +120,24 @@ Juan Carlos Kuri Pinto / @Juan Carlos Kuri Pinto, Jacqueline Susan Mejía Cácer
 ## Edge Cameras for Detecting Human Presence (Camera 5)<br/>
 <b>YouTube video: https://youtu.be/1PgzfK5YIpk</b>
 
+My acting skills as a thief are absolutely amazing. (No actor will play the role of a thief by greeting at both cameras.)
+
+In the video, I appear at 0:33 and I disappear at 1:05.
+
 ![Camera 5](/images/cam5.jpg)
+
+In like manner, the histogram of human pixels through time shows human presence from 0:34 to 1:03, approximately.
 
 ![Camera 5](/images/hist5.jpg)
 
 ## Edge Cameras for Detecting Human Presence (Camera 6)<br/>
 <b>YouTube video: https://youtu.be/o6oEQlBGtCg</b>
 
+In the video, I appear at 0:20 and I disappear at 1:07.
+
 ![Camera 6](/images/cam6.jpg)
+
+In like manner, the histogram of human pixels through time shows human presence from 0:30 to 1:06, approximately.
 
 ![Camera 6](/images/hist6.jpg)
 
