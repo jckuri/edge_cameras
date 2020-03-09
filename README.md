@@ -103,6 +103,10 @@ This command will produce 2 output files: 1 output video file `(out_*.mp4)` and 
 
 ## Project's Goal
 
+The goal of this project is to analyze videos in realtime in order to detect human activities. So, important statistics are precomputed at the same time when videos in security cameras are being filmed. The ultimate goal is to create "edge cameras" that are constantly filming and at the same time analyzing videos in realtime. While this goal is not fully achieved in this project, a proof-of-concept is shown. Semantic segmentation is slow. But future "edge devices" will have an enormous computational power due to Moore's law and the Kurzweil's Law of Accelerating Returns: <https://www.kurzweilai.net/the-law-of-accelerating-returns>
+
+While this project is very general and can be applied to any security camera, the goal of this project is easier to see with a personal example: I have a system of 8 security cameras in my building. Many neighbors always ask me for videos of thieves that stole them something or videos of abnormal activities in my neighborhood. When such abuses occur at a specific time and date, it is easy to find the correct videos. However, sometimes things are stolen in the night when nobody is present. That kind of videos are hard to find. And I need to search throughout hours of videos in multiple cameras. The fast forward function accelerates the process. But, when you accelerate videos too much, you can easily miss important events in the videos. So, it's difficult to track human activities. So, histograms of human activities through time are wildly needed. That's why this project is so important. In the future, edge cameras should include realtime functions for this kind of video analysis.
+
 ## How the "Intel® Edge AI Fundamentals Course" helped us
 
 The "Intel® Edge AI Fundamentals Course" taught us the programming tools and techniques to program this project. Learning the OpenVINO Toolkit and how to exploit its pretrained models was fundamental to build this project. We have learned a lot and we are very thankful to Udacity for this exciting learning opportunity.
