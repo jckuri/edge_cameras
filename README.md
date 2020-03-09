@@ -126,7 +126,7 @@ In the video, I appear at 0:33 and I disappear at 1:05. Pixels in red are counte
 
 ![Camera 5](/images/cam5.jpg)
 
-In like manner, the histogram of human pixels through time shows human presence from 0:34 to 1:03, approximately.
+In like manner, the histogram of human pixels through time shows human presence from 0:34 to 1:03, approximately. This histogram was computed by the Jupyter notebook ![Histograms.ipynb](Histograms.ipynb).
 
 ![Camera 5](/images/hist5.jpg)
 
@@ -137,7 +137,7 @@ In the video, I appear at 0:20 and I disappear at 1:07. Pixels in red are counte
 
 ![Camera 6](/images/cam6.jpg)
 
-In like manner, the histogram of human pixels through time shows human presence from 0:30 to 1:06, approximately.
+In like manner, the histogram of human pixels through time shows human presence from 0:30 to 1:06, approximately. This histogram was computed by the Jupyter notebook ![Histograms.ipynb](Histograms.ipynb).
 
 ![Camera 6](/images/hist6.jpg)
 
