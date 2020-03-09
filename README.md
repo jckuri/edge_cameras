@@ -120,9 +120,9 @@ Juan Carlos Kuri Pinto / @Juan Carlos Kuri Pinto, Jacqueline Susan Mejía Cácer
 ## Edge Cameras for Detecting Human Presence (Camera 5)<br/>
 <b>YouTube video: https://youtu.be/1PgzfK5YIpk</b>
 
-My acting skills as a thief are absolutely amazing. (No actor will play the role of a thief by greeting at both cameras.)
+My acting skills as a thief are absolutely amazing. (No actor would play the role of a thief by greeting at both cameras.)
 
-In the video, I appear at 0:33 and I disappear at 1:05.
+In the video, I appear at 0:33 and I disappear at 1:05. Pixels in red are counted as human pixels and will be shown in the histogram of human pixels through time.
 
 ![Camera 5](/images/cam5.jpg)
 
@@ -133,13 +133,15 @@ In like manner, the histogram of human pixels through time shows human presence 
 ## Edge Cameras for Detecting Human Presence (Camera 6)<br/>
 <b>YouTube video: https://youtu.be/o6oEQlBGtCg</b>
 
-In the video, I appear at 0:20 and I disappear at 1:07.
+In the video, I appear at 0:20 and I disappear at 1:07. Pixels in red are counted as human pixels and will be shown in the histogram of human pixels through time.
 
 ![Camera 6](/images/cam6.jpg)
 
 In like manner, the histogram of human pixels through time shows human presence from 0:30 to 1:06, approximately.
 
 ![Camera 6](/images/hist6.jpg)
+
+We can conclude the detection of human presence is somewhat accurate with some false negatives and zero false positives! The little amount of false negatives is compensated by the presence of true positives that make a blob of human presence in the histogram. And the zero amount of false positives is wonderful because security guards won't waste their time analyzing annoying false positives. So, this detector is very good and we are proud of it.
 
 # The Evaluation Criteria:
 
