@@ -107,7 +107,7 @@ This command will produce 2 output files: 1 output video file `(out_*.mp4)` and 
 
 The "Intel® Edge AI Fundamentals Course" taught us the programming tools and techniques to program this project. Learning the OpenVINO Toolkit and how to exploit its pretrained models was fundamental to build this project. We have learned a lot and we are very thankful to Udacity for this exciting learning opportunity.
 
-Specifically, when we brain-storming about the initial aspect of this project, I remembered that the trained model of **"Part 2. Intel® Edge AI Foundation Course; Lesson 4: The Inference Engine; Video Lecture 13. Exercise: Integrate into an App"** contained a class **people** in its categories for semantic segmentation. I also remembered that I programmed a very sophisticated visualization with transparencies for my project **Semantic Segmentation for Self-Driving Cars with OpenVINO <https://youtu.be/Urph3UHLivY>**. And I said: Why not doing it for detecting human presence in security cameras? Then, this project was born.
+Specifically, when we brain-storming about the initial aspects of this project, I remembered that the trained model of **"Part 2. Intel® Edge AI Foundation Course; Lesson 4: The Inference Engine; Video Lecture 13. Exercise: Integrate into an App"** contained a class **people** in its categories for semantic segmentation. I also remembered that I programmed a very sophisticated visualization with transparencies for my project **Semantic Segmentation for Self-Driving Cars with OpenVINO <https://youtu.be/Urph3UHLivY>**. And I said: Why not doing it for detecting human presence in security cameras? Then, this project was born.
 
 ## Team Members
 
